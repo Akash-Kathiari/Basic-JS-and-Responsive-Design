@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Start Minimal</title>
+</head>
+<body>
+<div class="container">
+    <!--===NAVBAR===    -->
+    <div class="navContainer">
+        <p class="webTitle">Start Minimal</p>
+        <div class="navChild" ONCLICK="parent.location='/Start-Minimal/index.html'">Home</div>
+        <div class="navChild" ONCLICK="parent.location='/Start-Minimal/productList.html'">Product List</div>
+    </div>
+<!--===ADVANCED FILTER===-->
+<main>
+    <section class="sort-options">
+        <button class="sort-name">Sort by Name</button>
+        <button class="sort-meta">Sort by Category</button>
+        <button class="sort-age">Sort by Price</button>
+    </section>
+    <section class="list-headers">
+        <div class="header-title">Name</div>
+        <div class="header-meta">Category</div>
+        <div class="header-age">Price</div>
+    </section>
+    <section class="list"></section>
+</main>
+        <!--===FOOTER===-->
+    <div class="footer">
+        <div>eCommerce Marketplace, LLC</div>
+        <div>(555) 555-555</div>
+        <div>55 Fake street<br>Faketown, NJ<br>12345</div>
+    </div>
+</div>
+<script src="productList.js"></script>
+</body>
+</html>
