@@ -21,6 +21,7 @@
     padding: 0 1em;
 }
 .navChild{
+    cursor: pointer;
     width: 8em;
     text-align: center;
 }
